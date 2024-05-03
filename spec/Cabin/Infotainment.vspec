@@ -247,7 +247,6 @@ HMI.DisplayOffDuration:
 SmartphoneProjection:
   type: branch
   description: All smartphone projection actions.
-  comment: Smartphone projection exposes or controls specific applications on the Smartphone on the vehicle infotainment system.
 
 SmartphoneProjection.Active:
   datatype: string
@@ -261,6 +260,7 @@ SmartphoneProjection.Source:
   type: actuator
   allowed: ['USB', 'BLUETOOTH', 'WIFI']
   description: Connectivity source selected for projection.
+  comment: Smartphone projection exposes or controls specific applications on the Smartphone on the vehicle infotainment system.
 
 SmartphoneProjection.SupportedMode:
   datatype: string[]
