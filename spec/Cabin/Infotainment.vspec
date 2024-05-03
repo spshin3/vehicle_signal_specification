@@ -270,8 +270,7 @@ SmartphoneProjection.SupportedMode:
 
 SmartphoneScreenMirroring:
   type: branch
-  description: All smartphone screen mirroring actions.
-  comment: Smartphone screen mirroring mirrors the whole screen of the Smartphone on the vehicle infotainment system.
+  description: All smartphone mirroring actions.
 
 SmartphoneScreenMirroring.Active:
   datatype: string
