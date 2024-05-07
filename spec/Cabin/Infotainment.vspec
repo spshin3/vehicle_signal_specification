@@ -287,10 +287,4 @@ SmartphoneScreenMirroring.Source:
   allowed: ['USB', 'BLUETOOTH', 'WIFI']
   description: Connectivity source selected for mirroring.
 
-SmartphoneScreenMirroring.Resolution:
-  datatype: string
-  type: sensor
-  allowed: ['RES_720P', 'RES_1080P', 'RES_4K']
-  description: Display resolution for the mirrored content.
-
 #include include/PowerOptimize.vspec
